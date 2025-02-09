@@ -5,4 +5,4 @@ export type Todo = {
     userId: number;
 }
 
-export type TodoFilter = 'all' | 'completed' | 'pending';
+export type TodoFilter = 'all' | 'completed' | 'pending' | string;
